@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d335df3d9d6b2e17f03e349d53eee40",
+    "content-hash": "32b060c039debcaaf889990744a50d6d",
     "packages": [
         {
             "name": "composer/installers",
@@ -397,7 +397,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip",
-                "reference": null,
+                "reference": "tags/4.4.11",
                 "shasum": null
             },
             "require": {
@@ -417,7 +417,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.3.3.2.zip",
-                "reference": null,
+                "reference": "tags/3.3.2",
                 "shasum": null
             },
             "require": {
@@ -437,7 +437,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.5.4.zip",
-                "reference": null,
+                "reference": "tags/2.5.4",
                 "shasum": null
             },
             "require": {
@@ -457,7 +457,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/sydney-toolbox.1.01.zip",
-                "reference": null,
+                "reference": "tags/1.01",
                 "shasum": null
             },
             "require": {
@@ -465,6 +465,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sydney-toolbox/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "4.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/4.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-theme/sydney",
@@ -477,7 +497,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/sydney.1.39.zip",
-                "reference": null,
+                "reference": "1.39",
                 "shasum": null
             },
             "require": {

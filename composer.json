@@ -43,7 +43,8 @@
     "wpackagist-plugin/advanced-custom-fields": "^4.4",
     "wpackagist-plugin/sydney-toolbox": "^1.01",
     "wpackagist-plugin/siteorigin-panels": "^2.5",
-    "wpackagist-plugin/akismet": "^3.3"
+    "wpackagist-plugin/akismet": "^3.3",
+    "wpackagist-plugin/wordpress-seo": "^4.8"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
